@@ -1,6 +1,14 @@
+@import "./base/modern-normalize";
 @import "./utils/variables";
-@import "./utils/utility.scss";
-@import "./utils/placeholder";
+@import "./base/base";
 @import "./utils/mixins";
+
+
+
+@import "./components/container";
+@import "./components/main-nav";
 @import "./components/logo";
-@import "./components/page-header";
+@import "./components/site-nav";
+@import "./components/auth-nav";
+
+
