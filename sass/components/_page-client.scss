@@ -28,7 +28,8 @@
 .client__link {
     fill: $primari-icon-color;
 
-    &:hover {
+    &:hover,
+    &:focus {
         fill: $accent-color;
     }
 }

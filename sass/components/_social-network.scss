@@ -12,7 +12,8 @@
 .social-network__item {
     fill: $primari-icon-color;
 
-    &:hover {
+    &:hover,
+    &:focus {
         fill: $primary-white-color;
     }
 

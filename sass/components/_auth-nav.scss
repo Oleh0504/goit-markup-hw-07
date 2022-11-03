@@ -1,5 +1,5 @@
 .auth-nav {
-    @include flexed ($jc: null, $ai: null, $gap: null);
+    @include flexed ($jc: null, $ai: baseline, $gap: null);
     
         &--append {
             margin-left: auto;
