@@ -4,6 +4,7 @@
 @import "./utils/mixins";
 
 
+/*header*/
 
 @import "./components/container";
 @import "./components/main-nav";
@@ -11,4 +12,31 @@
 @import "./components/site-nav";
 @import "./components/auth-nav";
 
+/*main*/
 
+ /*Герой*/
+@import "./components/page-hero";
+@import "./components/button-hero";
+
+@import "./components/form";
+
+/*Наша перевага*/
+@import "./components/section";
+@import "./components/page-advantage";
+
+/* Рід діяльності */
+@import "./components/section__title";
+@import "./components/page-activity";
+
+/* Команда */
+@import "./components/page-command";
+
+ /* Соцсети*/
+@import "./components/social-network";
+
+/* Наши клиенти*/
+@import "./components/page-client";
+
+/*footer*/
+@import "./components/footer";
+@import "./components/form-footer";
